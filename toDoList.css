@@ -1,0 +1,122 @@
+body {
+    background-color: #fff;
+    color: #000;
+    font-family: sans-serif;
+}
+.container {
+    display: block;
+    width: 700px;
+    margin: 150px auto 0;
+    padding: 20px 15px 30px;
+    border: 2px solid #000;
+    border-radius: 15px;
+}
+h3 {
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 15px;
+    border-bottom: 2px solid #000;
+    padding: 10px 0;
+    margin: 0 0 10px;
+}
+ul {
+    margin: 5px 0;
+    padding: 0;
+}
+li * {
+    float: left;
+}
+li,
+h3 {
+    clear: both;
+    list-style: none;
+}
+input,
+button {
+    outline: none;
+}
+button {
+    background: none;
+    border: 0;
+    color: #888;
+    font-size: 15px;
+    font-family: sans-serif;
+    cursor: pointer;
+    float: right;
+    margin: 8px auto;
+}
+button:hover {
+    color: #000;
+}
+#add {
+    float: right;
+    padding: 10px;
+    margin-top: 0;
+    border: 1px solid #fff;
+}
+#add:hover {
+    border-radius: 14px;
+    border: 1px solid #ddd;
+}
+input[type="text"] {
+    margin: 1px 0;
+    font-size: 18px;
+    line-height: 18px;
+    height: 18px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    background: #fff;
+    border-radius: 6px;
+    font-family: sans-serif;
+    color: #888;
+}
+input[type="text"]:focus {
+    color: #000;
+}
+label[for="new-task"] {
+    display: block;
+    margin: 0 0 20px;
+}
+input #new-task {
+    float: left;
+    width: 487px;
+}
+
+li {
+    overflow: hidden;
+    border-bottom: 1px solid #eee;
+}
+
+li > input[type="checkbox"] {
+    margin: 0 10px;
+    position: relative;
+    top: 15px;
+    transform: scale(1.5);
+}
+li > label {
+    font-size: 18px;
+    line-height: 40px;
+    width: 237px;
+    padding: 1px 0 0 11px;
+}
+li > input[type="text"] {
+    width: 457px;
+    display: none;
+}
+li > .delete:hover {
+    color: #cf2323;
+}
+#finished-tasks label,
+#finished-tasks button {
+    text-decoration: line-through;
+    color: lightgray;
+}
+ul .editMode input[type="text"] {
+    display: block;
+}
+ul .editMode label {
+    display: none;
+}
+.checkbox {
+    float: left;
+}
